@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Greenshine">#08ED11</color>
+    <color name="textcolor">#050505</color>
+    <color name="shade">#F9EFA493</color>
+    <color name="newgreen">#F979B854</color>
+    <color name="dividers">#F9494A47</color>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/plot_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="Plot"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/generaltext" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividers" />
+
+    <TextView
+        android:id="@+id/flat_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="Flats"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/generaltext" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividers" />
+
+    <TextView
+        android:id="@+id/villa_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="Villa"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/generaltext" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividers" />
+
+    <TextView
+        android:id="@+id/resi_others_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="Others"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/generaltext" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276212624115",
+    "firebase_url": "https://huda-haryana.firebaseio.com",
+    "project_id": "huda-haryana",
+    "storage_bucket": "huda-haryana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276212624115:android:29fd6f2afe03767d7a6586",
+        "android_client_info": {
+          "package_name": "com.example.huda_haryana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276212624115-cpulnkgabt6vu4k3p0363q80fufq7lod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhKLzO6D8UW4Y8AdOaUMUengf48BXnnBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276212624115-cpulnkgabt6vu4k3p0363q80fufq7lod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

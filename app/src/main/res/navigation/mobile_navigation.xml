@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.huda_haryana.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.huda_haryana.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.huda_haryana.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.huda_haryana.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="com.example.huda_haryana.ui.calculator.CalculatorFragment"
+        android:label="calculator_fragment"
+        tools:layout="@layout/calculator_fragment" />
+    <fragment
+        android:id="@+id/nav_loan_calculator"
+        android:name="com.example.huda_haryana.ui.loan_calculator.Loan_CalculatorFragment"
+        android:label="loan__calculator_fragment"
+        tools:layout="@layout/loan__calculator_fragment" />
+    <fragment
+        android:id="@+id/nav_legal_lawyers"
+        android:name="com.example.huda_haryana.ui.menu_legal_lawyer.Menu_legal_lawyerFragment"
+        android:label="menu_legal_lawyer_fragment"
+        tools:layout="@layout/menu_legal_lawyer_fragment" />
+    <fragment
+        android:id="@+id/nav_conversion_value_tables"
+        android:name="com.example.huda_haryana.ui.conversion_value_tables.Conversion_value_tablesFragment"
+        android:label="conversion_value_tables_fragment"
+        tools:layout="@layout/conversion_value_tables_fragment" />
+    <fragment
+        android:id="@+id/nav_upcoming_projects"
+        android:name="com.example.huda_haryana.ui.upcoming_projects.Upcoming_ProjectsFragment"
+        android:label="upcoming__projects_fragment"
+        tools:layout="@layout/upcoming__projects_fragment" />
+    <fragment
+        android:id="@+id/nav_analysis"
+        android:name="com.example.huda_haryana.ui.analysis.AnalysisFragment"
+        android:label="analysis_fragment"
+        tools:layout="@layout/analysis_fragment" />
+</navigation>

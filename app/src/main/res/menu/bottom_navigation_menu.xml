@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_leads"
+        android:icon="@drawable/ic_beenhere_black_24dp"
+        android:title="Leads"/>
+
+    <item
+        android:id="@+id/nav_labels"
+        android:icon="@drawable/ic_label_black_24dp"
+        android:title="Labels"/>
+
+    <item
+        android:id="@+id/nav_tasks"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Tasks"/>
+
+    <item
+        android:id="@+id/nav_business"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="My business"/>
+
+
+</menu>

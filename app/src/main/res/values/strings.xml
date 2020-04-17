@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">huda_haryana</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Huda Haryana</string>
+    <string name="nav_header_subtitle">   By: SG</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_feedback">Feedback to SG</string>
+
+
+    <string name="menu_home">News</string>
+    <string name="menu_gallery">Personal Calendar</string>
+    <string name="menu_slideshow">To Do list</string>
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_loan_calculator">Loan Calculator</string>
+    <string name="menu_legal_lawyers">Legal Lawyers</string>
+    <string name="menu_conversion_value_tables">Conversion Value Tables</string>
+    <string name="menu_upcoming_projects">Upcoming projects</string>
+    <string name="menu_analysis">Analysis</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
